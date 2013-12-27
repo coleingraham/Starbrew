@@ -1,0 +1,83 @@
+{
+  "objectName" : "wildhopsseed",
+  "rarity" : "Common",
+  "category" : "farmable",
+  "description" : "Hops, natures snackfood.",
+  "shortdescription" : "Grape Seed",
+  "objectType" : "farmable",
+  "printable" : false,
+  "objectItem" : "hopsseed",
+
+  "apexDescription" : "A luxury fruit. Hops and bananas make a wonderful fruit salad. Sadly most Apex never get to taste them.",
+  "avianDescription" : "Small, simple, peckable hops.",
+  "floranDescription" : "Bursssty and juicccy, green eyeballsss.",
+  "glitchDescription" : "Statement. Hops make for good projectiles as well as good snacks.",
+  "humanDescription" : "Hops. A traditional gift for those in the medical bay.",
+  "hylotlDescription" : "Sea hops taste so much better, these are too sweet.",
+
+  "inventoryIcon" : "hopsseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "hopsseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "requireTilledAnchors" : false,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "interactionTransition" : {
+    "2" : {
+      "dropOptions" : [
+        0.3,
+        [
+          {
+            "name" : "hops",
+            "count" : 1
+          },
+          {
+            "name" : "hopsseed",
+            "count" : 1
+          }
+        ],
+        [
+          {
+            "name" : "hops",
+            "count" : 1
+          },
+          {
+            "name" : "plantfibre",
+            "count" : 1
+          }
+        ],
+        [
+          {
+            "name" : "hops",
+            "count" : 1
+          }
+        ]
+      ],
+      "command" : "die"
+    }
+  },
+  "growing" : {
+    "0" : {
+      "duration" : [660, 780],
+      "success" : 1,
+      "failure" : 3
+    },
+    "1" : {
+      "duration" : [660, 780],
+      "success" : 2,
+      "failure" : 3
+    }
+  },
+  "stageAlts" : {
+    "count" : 4,
+    "2" : 5
+  }
+}
