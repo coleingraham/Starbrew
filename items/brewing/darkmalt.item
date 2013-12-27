@@ -1,0 +1,7 @@
+{
+  "itemName" : "darkmalt",
+  "rarity" : "Common",
+  "inventoryIcon" : "darkmalticon.png",
+  "description" : "A dark colored malt for brewing beer.",
+  "shortdescription" : "Dark Malt"
+}

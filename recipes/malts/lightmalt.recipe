@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "barley", "count" :1 }
+  ],
+  "output" : { "item" : "lightmalt", "count" : 1 },
+  "groups" : [ "stonefurnace", "all" ]
+}

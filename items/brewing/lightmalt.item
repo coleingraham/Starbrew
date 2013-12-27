@@ -1,0 +1,7 @@
+{
+  "itemName" : "lightmalt",
+  "rarity" : "Common",
+  "inventoryIcon" : "lightmalticon.png",
+  "description" : "A light colored malt for brewing beer.",
+  "shortdescription" : "Light Malt"
+}

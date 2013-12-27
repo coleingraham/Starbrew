@@ -1,0 +1,7 @@
+{
+  "itemName" : "mediummalt",
+  "rarity" : "Common",
+  "inventoryIcon" : "mediummalticon.png",
+  "description" : "A slightly dark colored malt for brewing beer.",
+  "shortdescription" : "Medium Malt"
+}

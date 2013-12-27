@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "money", "count" : 350 },
+    { "item" : "ironbar", "count" : 25 },
+    { "item" : "campfire", "count" : 1 },
+    { "item" : "darkwoodmaterial", "count" : 35 }
+  ],
+  "output" : {
+    "item" : "brewingstation",
+    "count" : 1
+  },
+  "groups" : [ "plain", "objects", "all", "tools" ]
+}
