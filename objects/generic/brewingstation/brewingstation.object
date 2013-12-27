@@ -4,7 +4,7 @@
   "objectType" : "interactable",
   "interactAction" : "OpenCraftingInterface",
   "interactData" : {
-    "config" : "/interface/windowconfig/craftingtable.config",
+    "config" : "/interface/windowconfig/brewingstation.config",
     "filter" : [ "brewingstation" ]
   },
   "printable" : false,
@@ -24,16 +24,19 @@
   "inventoryIcon" : "brewingstationicon.png",
   "orientations" : [
     {
-      "dualImage" : "brewingstation.png:<color>",
+      "dualImage" : "brewingstation.png:<color>.<frame>",
 
-      "imagePosition" : [-16, 0],
-      "frames" : 1,
-      "animationCycle" : 1.0,
+      "imagePosition" : [-8, 0],
+      "frames" : 6,
+      "animationCycle" : 0.9,
 
       "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ],
-      "collision" : "platform"
-
+      "anchors" : [ "bottom" ]
     }
-  ]
+  ],
+
+  "soundEffect" : "/sfx/objects/campfire.wav",
+  "soundEffectRadius" : 50,
+  
+  "recipeGroup" : "cooking"
 }
