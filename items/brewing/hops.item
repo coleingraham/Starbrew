@@ -3,7 +3,7 @@
   "rarity" : "Common",
   "inventoryIcon" : "hopsicon.png",
   "description" : "Hops for making beer.",
-  "shortdescription" : "Hops"
+  "shortdescription" : "Hops",
   "learnBlueprintsOnPickup" : [
     "brewingstation",
     "lightlager"
