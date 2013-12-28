@@ -4,4 +4,9 @@
   "inventoryIcon" : "hopsicon.png",
   "description" : "Hops for making beer.",
   "shortdescription" : "Hops"
+  "learnBlueprintsOnPickup" : [
+    "brewingstation",
+    "lightlager"
+  ]
+
 }

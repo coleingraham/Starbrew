@@ -3,5 +3,9 @@
   "rarity" : "Common",
   "inventoryIcon" : "barley.png",
   "description" : "Essential for making beer.",
-  "shortdescription" : "Barley"
+  "shortdescription" : "Barley",
+  "learnBlueprintsOnPickup" : [
+    "brewingstation",
+    "lightlager"
+  ]
 }

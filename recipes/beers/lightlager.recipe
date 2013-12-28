@@ -3,6 +3,6 @@
     { "item" : "lightmalt", "count" :10 },
     { "item" : "hops", "count" :1 } 
   ],
-  "output" : { "item" : "lighlager", "count" : 1 },
+  "output" : { "item" : "lightlager", "count" : 1 },
   "groups" : [ "brewingstation", "all" ]
 }
